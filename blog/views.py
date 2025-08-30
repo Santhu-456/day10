@@ -9,7 +9,7 @@ from .forms import BlogForm, CommentForm
 
 class BlogListView(ListView):
     model = Blog
-    template_name = 'blog_app/blog_list.html'
+    template_name = 'blog/blog_list.html'
     context_object_name = 'blogs'
 
 
